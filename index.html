@@ -21,7 +21,9 @@
   .icon-bar {
   position: fixed;
   top: 50%;
-  
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .icon-bar a {
   display: block;
@@ -141,10 +143,7 @@ p.sansserif {
       
     </div>
       
-      <div style="padding-left:16px">
-  <h2>Responsive Bottom Navbar Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-      </div>
+      
       
       <script>
 function myFunction() {
